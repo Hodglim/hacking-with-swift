@@ -77,6 +77,20 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 			{
 				[unowned self] _ in
 				self.people.removeAtIndex(indexPath.item)
+                
+                // Delete image
+                let imagePath = self.getDocumentsDirectory().stringByAppendingPathComponent(person.image)
+                let fileMgr = NSFileManager.defaultManager()
+                
+                do
+                {
+                    try fileMgr.removeItemAtPath(imagePath)
+                }
+                catch
+                {
+                    print("Failed to delete image file")
+                }
+                
 				self.collectionView.reloadData()
 				self.save()
 			})
