@@ -74,26 +74,26 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 		let ac = UIAlertController(title: "Delete person", message: "Are you sure you want to delete this person?", preferredStyle: .Alert)
 		ac.addAction(UIAlertAction(title: "No", style: .Cancel, handler: nil))
 		ac.addAction(UIAlertAction(title: "Yes", style: .Default)
+		{
+			[unowned self] _ in
+			self.people.removeAtIndex(indexPath.item)
+			
+			// Delete image
+			let imagePath = self.getDocumentsDirectory().stringByAppendingPathComponent(person.image)
+			let fileMgr = NSFileManager.defaultManager()
+			
+			do
 			{
-				[unowned self] _ in
-				self.people.removeAtIndex(indexPath.item)
-				
-				// Delete image
-				let imagePath = self.getDocumentsDirectory().stringByAppendingPathComponent(person.image)
-				let fileMgr = NSFileManager.defaultManager()
-				
-				do
-				{
-					try fileMgr.removeItemAtPath(imagePath)
-				}
-				catch
-				{
-					print("Failed to delete image file")
-				}
-				
-				self.collectionView.reloadData()
-				self.save()
-			})
+				try fileMgr.removeItemAtPath(imagePath)
+			}
+			catch
+			{
+				print("Failed to delete image file")
+			}
+			
+			self.collectionView.reloadData()
+			self.save()
+		})
 		
 		self.presentViewController(ac, animated: true, completion: nil)
 	}
