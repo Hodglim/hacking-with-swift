@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEACD0891D1D75CF002F6E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEACD0881D1D75CF002F6E46 /* AppDelegate.swift */; };
+		FEACD08B1D1D75CF002F6E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEACD08A1D1D75CF002F6E46 /* ViewController.swift */; };
+		FEACD08E1D1D75CF002F6E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEACD08C1D1D75CF002F6E46 /* Main.storyboard */; };
+		FEACD0901D1D75CF002F6E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEACD08F1D1D75CF002F6E46 /* Assets.xcassets */; };
+		FEACD0931D1D75CF002F6E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEACD0911D1D75CF002F6E46 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEACD0851D1D75CF002F6E46 /* iAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEACD0881D1D75CF002F6E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEACD08A1D1D75CF002F6E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEACD08D1D1D75CF002F6E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEACD08F1D1D75CF002F6E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEACD0921D1D75CF002F6E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEACD0941D1D75CF002F6E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEACD0821D1D75CF002F6E46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEACD07C1D1D75CF002F6E46 = {
+			isa = PBXGroup;
+			children = (
+				FEACD0871D1D75CF002F6E46 /* iAds */,
+				FEACD0861D1D75CF002F6E46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEACD0861D1D75CF002F6E46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEACD0851D1D75CF002F6E46 /* iAds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEACD0871D1D75CF002F6E46 /* iAds */ = {
+			isa = PBXGroup;
+			children = (
+				FEACD0881D1D75CF002F6E46 /* AppDelegate.swift */,
+				FEACD08A1D1D75CF002F6E46 /* ViewController.swift */,
+				FEACD08C1D1D75CF002F6E46 /* Main.storyboard */,
+				FEACD08F1D1D75CF002F6E46 /* Assets.xcassets */,
+				FEACD0911D1D75CF002F6E46 /* LaunchScreen.storyboard */,
+				FEACD0941D1D75CF002F6E46 /* Info.plist */,
+			);
+			path = iAds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEACD0841D1D75CF002F6E46 /* iAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEACD0971D1D75CF002F6E46 /* Build configuration list for PBXNativeTarget "iAds" */;
+			buildPhases = (
+				FEACD0811D1D75CF002F6E46 /* Sources */,
+				FEACD0821D1D75CF002F6E46 /* Frameworks */,
+				FEACD0831D1D75CF002F6E46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iAds;
+			productName = iAds;
+			productReference = FEACD0851D1D75CF002F6E46 /* iAds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEACD07D1D1D75CF002F6E46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Darren Hodges";
+				TargetAttributes = {
+					FEACD0841D1D75CF002F6E46 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEACD0801D1D75CF002F6E46 /* Build configuration list for PBXProject "iAds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEACD07C1D1D75CF002F6E46;
+			productRefGroup = FEACD0861D1D75CF002F6E46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEACD0841D1D75CF002F6E46 /* iAds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEACD0831D1D75CF002F6E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEACD0931D1D75CF002F6E46 /* LaunchScreen.storyboard in Resources */,
+				FEACD0901D1D75CF002F6E46 /* Assets.xcassets in Resources */,
+				FEACD08E1D1D75CF002F6E46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEACD0811D1D75CF002F6E46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEACD08B1D1D75CF002F6E46 /* ViewController.swift in Sources */,
+				FEACD0891D1D75CF002F6E46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEACD08C1D1D75CF002F6E46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEACD08D1D1D75CF002F6E46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEACD0911D1D75CF002F6E46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEACD0921D1D75CF002F6E46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEACD0951D1D75CF002F6E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEACD0961D1D75CF002F6E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEACD0981D1D75CF002F6E46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iAds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodglim.iAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEACD0991D1D75CF002F6E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iAds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hodglim.iAds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEACD0801D1D75CF002F6E46 /* Build configuration list for PBXProject "iAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEACD0951D1D75CF002F6E46 /* Debug */,
+				FEACD0961D1D75CF002F6E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEACD0971D1D75CF002F6E46 /* Build configuration list for PBXNativeTarget "iAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEACD0981D1D75CF002F6E46 /* Debug */,
+				FEACD0991D1D75CF002F6E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEACD07D1D1D75CF002F6E46 /* Project object */;
+}
